@@ -1,0 +1,39 @@
+name: Health_Tracker
+description: A health and mood tracking app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.25.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.14.0
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  hooks_riverpod: ^2.5.1
+  flutter_hooks: ^0.20.5
+
+  # Навигация
+  go_router: ^13.0.1
+
+  # UI
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.2.0
+  lottie: ^3.1.0
+
+  # Уведомления
+  flutter_local_notifications: ^16.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
